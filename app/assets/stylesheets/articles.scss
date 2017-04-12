@@ -1,0 +1,45 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+    width: 900px;
+    margin: 30px auto;
+}
+
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: maroon;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+
+
+h1, h2, h3, label {
+    font-family: 'Montserrat', sans-serif;
+    color: #3B5998;
+}
+
+h3{
+  font-style: italic;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: maroon;
+  text-decoration: none;
+}
+
+.btn {
+   background-color: white; /* Green */
+    border: 2px solid #3B5998;
+    color: #3B5998;
+    text-align: center;
+    font-size: 16px;
+}

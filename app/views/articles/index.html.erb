@@ -1,0 +1,11 @@
+<center>
+<h1>List of all the Articles:</h1>
+</center>
+<h2><%= link_to "Adicionar novo article", new_article_path(@article)%></h2>
+<% @articles.each do |article| %>
+  <h2><%= article.title %>(id: <%= article.id %>)</h2>
+  <h3><%= Kramdown::Document.new(article.content).to_html.html_safe %></h3>
+<% end %>
+
+
+
